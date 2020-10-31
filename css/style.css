@@ -104,12 +104,23 @@ header nav {
 }
 a.call-us {
     font-size: 2em;
-    color: #e8491d;
+    color: white;
     font-weight: bold;
     text-decoration: none;
+    border-radius: 50px;
+    background-color: #004466;
+    border-color: #004466;
     
 
 }
+
+a.call-us:hover{
+    border-color: #004466;
+    background-color: white;
+    color: #004466;
+    transition: 2s;
+}
+
 a:hover {
     color: white;
 }
@@ -354,16 +365,17 @@ a:hover {
  
  #service-area{
      color: white;
-     text-align: left;
-     padding-top: 23px;
+     text-align: center;
+     padding-top: 13px;
     padding-left: 21px;
      
  }
 
  /*  quote */
 .quote{
-    text-align: right;
+    text-align: center;
     padding-right: 27px;
+    padding-top: 16px;
 }
  
   /*  media Queries */
