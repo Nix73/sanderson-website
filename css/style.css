@@ -99,11 +99,11 @@ header nav {
     
 }
 .services-header h1 {
-    margin-left:1.5em;
+    margin-left:1em;
     
 }
 a.call-us {
-    font-size: 1em;
+    font-size: 2em;
     color: #e8491d;
     font-weight: bold;
     text-decoration: none;
@@ -131,6 +131,7 @@ a:hover {
      color: white;
      text-align: center;
  }
+ 
 
  .card-image{
      height: 280px;
@@ -139,7 +140,12 @@ a:hover {
 
  .card-title{
      margin-top: 25px;
+     
  }
+ h5.card-title{
+     font-weight: bold !important;
+ }
+ 
 
  .card:hover{
     box-shadow: -4px 3px 16px 1px black !important;
