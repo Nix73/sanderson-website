@@ -207,6 +207,11 @@ a:hover {
     background-color: rgba(0,0,0,0.8);
     color: white;
   }
+
+  .color {
+      color: #e8491d;
+      font-size: 1.5em;
+  }
   
   /* The dot/bullet/indicator container */
   .dot-container {
