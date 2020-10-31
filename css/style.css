@@ -106,8 +106,8 @@ a.call-us {
     font-size: 1em;
     color: #e8491d;
     font-weight: bold;
-    margin-right: 20px;
     text-decoration: none;
+    
 
 }
 a:hover {
@@ -300,9 +300,44 @@ a:hover {
  }
 
 
+ .yadz-nav{
+     background-color: #004466 !important;
+     border-bottom: 3px solid #e8491d !important;
+ }
 
+ .yadz-heading-text{
+     color: white;;
+ }
+
+ .yadz-fab{
+     color: white;
+ }
+
+ .yadz-fab:hover{
+     color: #e8491d;
+ }
  
+ .nav-link{
+     color: white !important;
+ }
+
+ .nav-link:hover{
+     color: #e8491d !important;
+ }
+
+ .navbar-brand{
+     margin-right: 0px !important;
+ }
+
+ .container-fluid{
+     background-color: #004466 !important;
+     border-top: 3px solid #e8491d;
+ }
  
+ #service-area{
+     color: white;
+     text-align: center;
+ }
 
  /*  quote */
 
